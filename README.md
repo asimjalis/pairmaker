@@ -5,6 +5,24 @@
 Generates pairs for pair programming, that are guaranteed to not
 repeat.
 
+## How To Install And Use
+
+Make a local copy.
+
+    git clone https://github.com/asimjalis/pairmaker
+    cd pairmaker
+
+Edit the `students.txt` file and put one student name per line. Here
+are some example students.
+
+    Alexander
+    Ben
+    Cassandra
+    Dana
+
+For today's pairs run:
+
+    ./pairmaker.py today
 ## Algorithm
 
 Uses *round-robin tournament algorithm* as described at
@@ -24,4 +42,5 @@ Uses *round-robin tournament algorithm* as described at
 
 - Looks for `students.txt` in directory where script running from
 - File `students.txt` must contain student names one per line
+
 
